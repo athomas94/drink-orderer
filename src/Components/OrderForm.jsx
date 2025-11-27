@@ -37,15 +37,13 @@ function OrderForm({ addOrder }) {
           <option value="Moose's Christmas Mule">Moose's Christmas Mule</option>
           <option value="Gouda's Gingerbread Martini">Gouda's Gingerbread Martini</option>
           <option value="Duke's Dark and Stormy">Duke's Dark and Stormy</option>
-          <option value="Fun Christmas Punch">Fun Christmas Punch</option>
-          <option value="Virgin Christmas Punch">Virgin Christmas Punch</option>
           <option value="Beer - Budweiser">Beer - Budweiser</option>
           <option value="Beer - Michelob">Beer - Michelob</option>
           <option value="Beer - Stormbrew">Beer - Stormbrew</option>
           <option value="Other - Water">Other - Water</option>
           <option value="Other - Dr. Pepper">Other - Dr. Pepper</option>
           <option value="Other - Diet Coke">Other - Diet Coke</option>
-          <option value="Other - Mt. Dew Baja Blast">Other - Mt. Dew Baja Blast</option>
+          <option value="Other - Coke Zero">Other - Coke  Zero</option>
           <option value="Other - Milk">Other - Milk</option>
         </select>
       </div>
