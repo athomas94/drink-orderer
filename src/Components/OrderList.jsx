@@ -17,7 +17,7 @@ function OrderList({ orders, removeOrder }) {
           ))}
         </ul>
       ) : (
-        <p className="text-xl text-white">No Unhappy Customers 🎉</p>
+        <p className="text-xl text-white">Job's done!</p>
       )}
     </div>
   );

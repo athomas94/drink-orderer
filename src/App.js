@@ -20,11 +20,11 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-green-900 to-red-700 text-white font-sans">
+    <div className="min-h-screen bg-gradient-to-b from-green-800 to-red-600 text-white font-sans">
       <header className="flex flex-col items-center py-8">
         <img src={logo} alt="Tucker's Logo" className="w-40 h-auto rounded-full shadow-lg mb-4" />
         <h1 className="text-4xl font-bold">Tucker's Drink Orderer</h1>
-        <p className="text-xl mt-2">Since Tucker is a dog and can't talk, this is how he'll collect orders from people</p>
+        <p className="text-xl mt-2">Since Tucker is a dog but doesn't bark for some reason, this is how he'll collect orders from people</p>
       </header>
 
       <main className="container mx-auto p-8">

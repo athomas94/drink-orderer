@@ -3,7 +3,7 @@ import React from 'react';
 function CompletedOrders({ completedOrders }) {
   return (
     <div className="mt-8">
-      <h2 className="text-3xl font-bold mb-4">Order Up! ☕🎉</h2>
+      <h2 className="text-3xl font-bold mb-4">Order Up!</h2>
       {completedOrders.length > 0 ? (
         <ul className="space-y-4">
           {completedOrders.map((order, index) => (
@@ -16,7 +16,7 @@ function CompletedOrders({ completedOrders }) {
           ))}
         </ul>
       ) : (
-        <p className="text-xl text-white">Still cooking...</p>
+        <p className="text-xl text-white">Still working on it!</p>
       )}
     </div>
   );
